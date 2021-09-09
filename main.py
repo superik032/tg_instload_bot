@@ -3,7 +3,7 @@ from instaloader import Profile, Post, Hashtag, Highlight
 import asyncio
 import db
 from aiogram import Bot, Dispatcher, executor, filters, types
-API_TOKEN = ''
+API_TOKEN = '1950929852:AAHjwJcvFYAhESN-xVzTie8r9DsldXeILkg'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 conn = db.create_connection()
